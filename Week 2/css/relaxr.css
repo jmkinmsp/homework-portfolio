@@ -4,7 +4,6 @@
   box-sizing: border-box; /* IE */
 }
 
-
 body {
   color: #f0efef;
   font-size: 13px;
@@ -13,6 +12,7 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
+
 a {
   text-decoration: none;
 }
@@ -59,7 +59,6 @@ header div.desktop-menu ul li a {
   color: #f9e42e;
 }
 
-
 #hero {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
@@ -69,6 +68,7 @@ header div.desktop-menu ul li a {
 #hero .logo {
   color: #fff;
 }
+
 #hero h2 {
   font-size: 24px;
   text-align: center;
@@ -76,6 +76,7 @@ header div.desktop-menu ul li a {
   margin: 120px 0 90px;
   font-weight: 600;
 }
+
 .button {
   border-radius: 5px;
   font-weight: 800;
@@ -86,39 +87,47 @@ header div.desktop-menu ul li a {
   display: block;
   margin: 0 auto;
 }
+
 .yellow {
   background: #f9e42e;
   color: #033048;
 }
+
 .blue {
   background: #033048;
   color: #fff;
   font-size: 12px;
   font-weight: 800; 
 }
+
 #benefits {
   padding: 100px 0 80px;
 }
+
 h3 {
   color: #033048;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
 }
+
 #benefits p, #benefits ul {
   font-size: 13px;
   font-weight: 600; 
   width: 600px;
 }
+
 #benefits ul {
   list-style: disc;
   margin: 30px 0 0 80px;
 }
+
 #testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
   padding: 70px 0 70px;
   color: #fff;
 }
+
 blockquote {
   font-size: 18px;
   font-weight: 300;
@@ -127,6 +136,7 @@ blockquote {
   width: 580px;
   margin: 0 auto;
 }
+
 blockquote span {
   font-weight: 600;
   display: block;
@@ -138,17 +148,20 @@ footer {
   padding: 65px 0 45px;
   text-align: center;
 }
+
 footer .logo {
   color: #f9e42e;
   margin-bottom: 68px;
   font-size: 24px;
   font-weight: 800;
 }
+
 footer ul li {
   display: inline-block;
   list-style: none;
   margin: 0 26px 75px;
 }
+
 footer p {
   font-size: 9px;
   color: #fff;
@@ -162,8 +175,7 @@ body#contact{
 input {
   border: none;
   border-bottom: 1px solid #ccc;
-  font-size: 18px;
-  
+  font-size: 18px;  
 }
 
 label {
@@ -181,6 +193,7 @@ button {
   border: none;
   font-size: 20px;
 }
+
 #bottom-cta {
   background: #f9e42e;
   padding: 30px;
