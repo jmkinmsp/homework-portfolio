@@ -16,15 +16,11 @@ body {
 a {
   text-decoration: none;
 }
-
-h1 {display: block;
-    font-size: 24px;
-    font-weight: extrabold;
-} 
+ 
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
@@ -44,32 +40,32 @@ header .logo {
   float: left;
 }
 
-header div.desktop-menu {
+header div.menu {
   float: right;
   margin-top: 45px;
 }
 
-header div.desktop-menu ul li {
+header div.menu ul li {
   display: inline-block;
   margin: 0 0 0 40px;
   font-size: 24px;
 }
 
-header div.desktop-menu ul li a {
+header div.menu ul li a {
   color: #f9e42e;
 }
 
-#hero {
+#sail {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
   padding-top: 32px;
 }
 
-#hero .logo {
+#sail .logo {
   color: #fff;
 }
 
-#hero h2 {
+#sail h2 {
   font-size: 24px;
   text-align: center;
   color: #fff;
@@ -135,6 +131,7 @@ blockquote {
   text-align: center;
   width: 580px;
   margin: 0 auto;
+  color: #ffffff;
 }
 
 blockquote span {
@@ -178,10 +175,6 @@ input {
   font-size: 18px;  
 }
 
-label {
-  float: left;
-  width: 250px;
-}
 
 button {
   background-color: black;
