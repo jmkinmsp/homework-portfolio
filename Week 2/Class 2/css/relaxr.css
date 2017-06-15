@@ -175,6 +175,7 @@ input {
   font-size: 18px;  
 }
 
+
 button {
   background-color: black;
   color: #fff;
@@ -186,7 +187,7 @@ button {
   font-size: 20px;
 }
 
-#bottom {
+#bottom-cta {
   background: #f9e42e;
   padding: 30px;
   text-align: center;
