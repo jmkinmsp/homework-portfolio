@@ -13,22 +13,22 @@
  * We've started you off, replace the sec
  */
  
-	function question1(){
+		function question1(){
 		$("p").css("color", "blue");
 	}
 
-	$("#button1").click(question1);
+		$("#button1").click(question1);
 
 /**
  * Question 2:
  * When button 1 is clicked, select all <h2> elements on this page, and change the text to say your name.
  */
 
-	 function question2(){
+	 	function question2(){
 	 	$("h2").html("Jeff");
 	 }
 
-	 $("#button1").click(question2);
+	 	$("#button1").click(question2);
 
 /**
  * Question 3:
@@ -36,11 +36,11 @@
  * Using jQuery change the content to read "True Fact".
  */
 
-	function question3(){
+		function question3(){
 		$(".falseFact").html("True Fact");
 	}
 
-	$("#button1").click(question3);
+		$("#button1").click(question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
@@ -49,11 +49,11 @@
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
 
-	function question4(){
+		function question4(){
 		$("body").css("background-color","pink");
 	}
 
-	$("#button2").click(question4);
+		$("#button2").click(question4);
 
 
 /**
