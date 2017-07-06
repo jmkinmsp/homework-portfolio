@@ -2,7 +2,7 @@
 $(document).ready(function() {
   //prevent the submit button from refreshing the page
   $('#submit-btn').click(function(){
-    event.preventDefault();  // IMPORTANT: without this page refresh and return to default page
+    event.preventDefault(); 
     //get the value of the #city-type input and correct for capitalization
     var city = $('#city-type').val();
     $('#city-type').val('');
