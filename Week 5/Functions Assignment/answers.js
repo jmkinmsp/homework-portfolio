@@ -102,9 +102,9 @@ return sum/count;
 // This function should return the opposite value(true if the argument is false,
 // false if the argument is true). Hint: use the ! operator.
 function disagree(a) {
-	if (a = true){
+	if (a === true){
  	return !a;
- 	}else if (a = false){
+ 	}else if (a === false){
  	return !a;
  	}
 }
