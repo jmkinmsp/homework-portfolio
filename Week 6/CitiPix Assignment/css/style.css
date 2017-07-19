@@ -95,7 +95,7 @@ header {
   padding: 0px 30px;
   display: inline-block;
   width: 680px;
-  margin-right: 24px;
+  margin: 0 auto;
   font-family: helvetica, arial, sans-serif;
   height: 72px;
   line-height: 74px;
