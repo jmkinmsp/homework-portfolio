@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About</title>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
 </head>
+
 <body>
 	<div class="header">
-		<div>
+		<div class="toggle-mobile-nav">
+			<!-- hamburger emoji -->
+			&#127828;
+		</div>
+		<nav class="hide-on-mobile">
 			<ul>
 				<li>
 					<a href="index.html">Home</a>
@@ -24,36 +33,63 @@
 				<li class="selected">
 					<a href="about.html">About</a>
 				</li>
+			</ul>
+						<a href="index.html" class="logo"><img src="images/logo4.png" alt="logo"></a>
+		</nav>
+		<nav class="display-on-mobile">
+			<ul>
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
 				<li>
-					<a href="blog.html">Blog</a>
+					<a href="events.html">Events</a>
+				</li>
+				<li>
+					<a href="games.html">Games</a>
+				</li>
+				<li>
+					<a href="menu.html">Menu</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
 				</li>
 			</ul>
-		</div>
+		</nav>
 	</div>
-	<div class="body">
-		<div>
-			<div class="about">
-				<h4>H4 Text</h4>
-				<p>
-						Nulla eget nibh euismod quam pretium condimentum rutrum at ligula. Proin vestibulum sodales dictum. Suspendisse cursus ligula sagittis turpis imperdiet eu varius tellus pellentesque. Aenean nec lectus odio. Curabitur rhoncus, nulla ac commodo consequat, leo mauris ultricies turpis, sit amet vulputate nunc justo non massa. Morbi sed leo ipsum. Nam congue tempor nibh at cursus. Curabitur nec augue turpis.
-				</p>
-				<h4>H4 Text</h4>
-				<p>
-						Nulla eget nibh euismod quam pretium condimentum rutrum at ligula. Proin vestibulum sodales dictum. Suspendisse cursus ligula sagittis turpis imperdiet eu varius tellus pellentesque. Aenean nec lectus odio. Curabitur rhoncus, nulla ac commodo consequat, leo mauris ultricies turpis, sit amet vulputate nunc justo non massa. Morbi sed leo ipsum. Nam congue tempor nibh at cursus. Curabitur nec augue turpis.
-				</p>
-				<h4>H4 Text</h4>
-				<p>
-						Nulla eget nibh euismod quam pretium condimentum rutrum at ligula. Proin vestibulum sodales dictum. Suspendisse cursus ligula sagittis turpis imperdiet eu varius tellus pellentesque. Aenean nec lectus odio. Curabitur rhoncus, nulla ac commodo consequat, leo mauris ultricies turpis, sit amet vulputate nunc justo non massa. Morbi sed leo ipsum. Nam congue tempor nibh at cursus. Curabitur nec augue turpis.
-				</p>
-				<h5>H4 Text</h5>
-				<p>
-						Nulla eget nibh euismod quam pretium condimentum rutrum at ligula. Proin vestibulum sodales dictum. Suspendisse cursus ligula sagittis turpis imperdiet eu varius tellus pellentesque. Aenean nec lectus odio. Curabitur rhoncus, nulla ac commodo consequat, leo mauris ultricies turpis, sit amet vulputate nunc justo non massa. Morbi sed leo ipsum. Nam congue tempor nibh at cursus. Curabitur nec augue turpis.
-				</p>
+		<div class="about">
+			<div class="widget_contact_info">
+				<div class="about_left">
+			 		<a href="index.html" class="flyer"><img src="images/flyer.jpg" alt="flyer"></a>
+				</div>
+				<div class="about_right">
+					<h2 class="widget-title">Hours &amp; Info</h2>
+						<div class="contact-map-container"><iframe width="600" height="216" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=32925+1st+Ave+S+N%2CFederal+Way%2C+WA+98003&amp;key=AIzaSyCq4vWNv6eCGe2uvhPRGWQlv80IQp8dwTE" class="contact-map"></iframe>
+							<div class="contact-map-distractor" style="display: block;">
+							</div>
+				</div>
+				<div class="confit-address">
+					<a href="http://maps.google.com/maps?z=16&amp;q=32925+1st+ave+s+n,+federal+way,+wa+98003" target="_blank">32925 1st Ave S N,
+					<br>Federal Way, WA 98003</a>
+				</div>
+					<div class="confit-phone">(253) 838-5929</div>
+					<div class="confit-hours">Mon-Fri 11am - 2am
+						<br>Sat-Sun 9am - 2am
+						<br>Menu available till 1am
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="footer">
-
-	</div>
+<div class="footer">
+</div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+
+
+</script>
+<script type="text/javascript" src="js/main.js">
+
+
+</script>
+
 </html>
